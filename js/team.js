@@ -9,8 +9,8 @@ window.addEventListener("load", event => {
             desc: "Far far away, behind the world mountains, far from the countries Vokalia and Consonantia, theres live the blind texts.",
             photo: "img/aan.jpg",
             website: "#",
-            email: "mailto:rafaelavlucas@gmail.com",
-            linkedin: "#",
+            email: "mailto:abdillahaziz56@gmail.com",
+            instagram: "https://www.instagram.com/abdillah.aziz.3154/",
             dribbble: "#",
         },
         {
