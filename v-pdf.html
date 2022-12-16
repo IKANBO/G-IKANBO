@@ -46,7 +46,7 @@
             //Layout Setting
             pdfUrl:'pdf/pdf.pdf',
             lightBox:true,
-            layout:3,
+            layout:1,
             currentPage:{vAlign:"bottom", hAlign:"left"},
             // BTN SETTING
             btnDownloadPages : {
@@ -58,6 +58,7 @@
               name: "allPages.zip",
               hideOnMobile:false
             },
+          
             btnColor:'rgb(28, 59, 173)',
             sideBtnColor:'rgb(28, 59, 173)',
             sideBtnSize:60,
@@ -67,6 +68,7 @@
             btnAutoplay:{vAlign:"top", hAlign:"left"},
         });
       })
+    
   </script>
 
   <style>
@@ -150,12 +152,25 @@
                     </button>
                   </form>
                 </div>
+              </div> 
+              <div class="dropdown">
+                <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  BACA PDF
+                </a>
+              
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" id="read">IKANBO</a></li>
+                  <li><a class="dropdown-item" href="https://heyzine.com/flip-book/743d71aab8.html">HEYZINE</a></li>
+                  <li><a class="dropdown-item" href="https://online.fliphtml5.com/ivdzt/esml/">FLIPHMTL5</a></li>
+                  <li><a class="dropdown-item" href="https://online.pubhtml5.com/omvyq/ufcc/">PUBHTML5</a></li>
+                  <li><a class="dropdown-item" href="https://online.flippingbook.com/view/54367759/">FLIPPINGBOOK</a></li>
+                  <li><a class="dropdown-item" href="https://www.flipbookpdf.net/web/site/5f8d8bc3335ee98d890b47fe8ed1c003f7d3c4dc202212.pdf.html#page/1">FLIPBOOKPDF</a></li>
+                </ul>
               </div>
-              <a id="read" class="btn btn-primary mt-2 text-white">Baca PDF <i class="fas fa-book-reader fa-lg"></i></a>
+        
               <a href="pdf/pdf.pdf" class="btn btn-primary mt-2 text-white" download>Unduh PDF <i class="fas fa-download fa-lg"></i></a>
               <a href="#" class="btn btn-primary mt-2 text-white" >bookmark <i class="fas fa-bookmark fa-lg"></i></a>
-              
-             
+
             </div>
             <!-- Description -->
             <p id="description">Menjadi generasi yang tumbuh dengan tuntutan adaptasi besar bukanlah hal yang mudah, rintangan demi rintangan harus kita hadapi, jatuh bangun, bangkit dan gagal. Dihantam dari berbagai sisi mungkin menjadikan kita hancur lebur. Dan bahkan hal hal seperti ini mungkin sudah menjadi makanan sehari hari, namun kita masih punya pilihan. Memilih untuk menetap di lingkup zona nyaman atau memilih untuk berusaha terus maju dan mencoba hal baru. Menjadi generasi yang memeluk diri mereka kembali yang hancur dan menjadi sosok yang bersinar,
@@ -189,6 +204,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
+ 
+  
   </body>
 
 </html>

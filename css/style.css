@@ -47,8 +47,8 @@
 
   @media screen and (max-width: 767px){
     .bookshelf{
-    position: absolute;
-    bottom: 100px;
+    position: relative;
+    bottom: -250px;
     }
   }
   
